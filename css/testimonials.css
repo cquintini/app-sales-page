@@ -1,0 +1,47 @@
+.testimonials h2 {
+	margin: 70px 0 60px;
+}
+
+.testimonials img {
+	margin-bottom: 50px;
+}
+
+.testimonials p {
+	margin-top: 12px;
+}
+
+@media (max-width: 992px) {
+	.testimonials img {
+		margin-top: 60px;
+	}
+
+	.testimonials .testimonial-text {
+
+
+	}
+
+}
+
+@media (max-width: 900px) {
+
+	.testimonials p {
+		margin-top: -30px;
+	}
+
+	.testimonials h2 {
+		margin-bottom: 20px;
+	}
+
+	.testimonials-bottom-spacing {
+		margin-bottom: 30px;
+	}
+
+}
+
+@media (max-width: 992px) {
+	.testimonials .testimonial-text {
+		width: 50%;
+		float: none;
+		margin: auto;
+	}
+}
